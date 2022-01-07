@@ -1,0 +1,12 @@
+#sprite-image {
+  height: 325px;
+  width: 184px;
+  background: url("capguy-walk.png");
+    0px 0px;
+  animation: play 0.8s steps(8) infinite;
+}
+@keyframes play {
+  100% {
+    background-position: -1472px;
+  }
+}
